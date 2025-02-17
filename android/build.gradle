@@ -1,6 +1,6 @@
 android {
-    buildToolsVersion "30.0.3"
-    compileSdk 30
+    buildToolsVersion '33.0.0'
+    compileSdk 33
     namespace = "com.first.game"
     sourceSets {
         main {
@@ -19,8 +19,8 @@ android {
     }
     defaultConfig {
         applicationId "com.first.game"
-        minSdkVersion 14
-        targetSdkVersion 30
+        minSdkVersion 24
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
     }
