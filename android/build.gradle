@@ -1,6 +1,7 @@
 android {
     buildToolsVersion "30.0.3"
-    compileSdkVersion 30
+    compileSdk 30
+    namespace = "com.first.game"
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
@@ -28,6 +29,10 @@ android {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
 }
 
